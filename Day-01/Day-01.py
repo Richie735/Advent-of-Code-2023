@@ -1,12 +1,3 @@
-"""
-This script reads input from a file and performs calculations based on the input.
-It calculates two solutions: solution_1 and solution_2.
-The script iterates through each line of the input and extracts numbers from the line.
-For solution_1, it adds the first and last numbers extracted from each line.
-For solution_2, it replaces certain words with corresponding numbers and adds the first and last numbers extracted from each line.
-Finally, it prints the values of solution_1 and solution_2.
-"""
-
 with open("./Day-01/input.in") as file:
     input = [i for i in file.read().strip().split("\n")]
 
