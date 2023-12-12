@@ -87,7 +87,7 @@ while queue:
 
 solution_1 = max(distances.values())
 
-ch = visited
+
 visited = set()
 stack = [(start_i, start_j)]
 
@@ -101,10 +101,10 @@ while len(stack) > 0:
     for neighbour in list(get_neighbours(*top)):
         if neighbour not in visited:    stack.append(neighbour)
 
-if ch == visited:   print ("All nodes are connected")
-if queue == stack:  print ("Queue and stack are equal")
-
 solution_2 = 0
+
+# Ray casting algorithm
+# tip from: https://www.reddit.com/r/adventofcode/comments/18ft3y3/2023_day_10_part_2_rust_this_has_been_bothering/ 
 for i, line in enumerate(input):
     for j in range(num_cols):
         if not (i, j) in visited:   
