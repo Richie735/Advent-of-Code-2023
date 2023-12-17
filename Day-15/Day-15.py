@@ -41,4 +41,4 @@ for cmd in input:
 
 solution_2 = calculate_focal_power(boxes)
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 15: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
