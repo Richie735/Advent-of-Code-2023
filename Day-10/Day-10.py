@@ -112,4 +112,4 @@ for i, line in enumerate(input):
 
             if double_curves % 2:  solution_2 += 1
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 10: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)

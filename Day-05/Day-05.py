@@ -94,4 +94,4 @@ for start, rangeL in seed_ranges:
     for start_range, end_range in current_intervals:
         solution_2 = min(solution_2, start_range)
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 05: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)

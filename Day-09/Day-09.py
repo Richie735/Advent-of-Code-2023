@@ -25,4 +25,4 @@ for line in input:
 solution_1 = sum(right_history)
 solution_2 = sum(left_history)
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 09: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)

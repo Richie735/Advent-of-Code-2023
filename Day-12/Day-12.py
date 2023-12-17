@@ -42,4 +42,4 @@ for row in input:
 solution_1 = sum(count_possible_arrangements(*line) for line in records)
 solution_2 = sum(count_possible_arrangements(((c + (1,)) * 5)[:-1], cluster * 5) for c, cluster in records )
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 12: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)

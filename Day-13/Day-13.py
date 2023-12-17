@@ -52,4 +52,4 @@ for pattern in input:
     solution_2 += find_reflection_line(grid, True)
 
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 13: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)

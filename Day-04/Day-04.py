@@ -24,4 +24,4 @@ for index, line in enumerate(input):
 
 solution_2 = sum(scratchcards_count.values())
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 04: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)

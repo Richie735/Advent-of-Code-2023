@@ -44,4 +44,4 @@ steps = [multiple_paths_counter(node) for node in starting_nodes]
 solution_2 = math.lcm(*steps) # common multiple of steps
 
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 08: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)

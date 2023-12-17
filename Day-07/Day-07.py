@@ -91,4 +91,4 @@ joker_hands = sorted(hands, key=cmp_to_key(lambda x, y: compare_hands(x[0], y[0]
 solution_2 = 0
 for i, line in enumerate(joker_hands): solution_2 += (i + 1) * line[1]
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 07: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)

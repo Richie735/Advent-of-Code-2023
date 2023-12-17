@@ -47,4 +47,4 @@ for i in range(len(galaxy_cords)):
         solution_2 += get_distance(galaxy_cords[i], galaxy_cords[j], 10**6)
 
 
-print ("Answer to Day 01: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)
+print ("Answer to Day 11: \n Part 1 => ", solution_1, "\n Part 2 => ", solution_2)

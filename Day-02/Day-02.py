@@ -29,4 +29,4 @@ for line in input:
     if possible: 
         solution_1 += int(id.split()[-1])
 
-print("Answer to Day 01:\nPart 1 =>", solution_1, "\nPart 2 =>", solution_2)
+print("Answer to Day 02:\nPart 1 =>", solution_1, "\nPart 2 =>", solution_2)
